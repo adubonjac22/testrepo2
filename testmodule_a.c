@@ -2,6 +2,8 @@
 #include <linux/module.h>
 #include <linux/sched/signal.h>
 
+//comment 
+
 char buffer[256];
 
 char * get_task_state(long state)
