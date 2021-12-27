@@ -1,10 +1,10 @@
-#include <linux/kernel.h>
-#include <linux/module.h>
+#include <linux/kernel.h> 
+#include <linux/module.h> 
 #include <linux/sched/signal.h>
 
-//comment 
-//45
-char buffer[256];
+// emulacija ps komande za izlistavanje procesa
+
+char buffer[256]; //buffer za printk poruku 
 
 char * get_task_state(long state)
 {
@@ -49,5 +49,3 @@ static void test_tasks_exit(void)
 MODULE_LICENSE("GPL");
 module_init(test_tasks_init);
 module_exit(test_tasks_exit);
-
-
