@@ -2,9 +2,15 @@
 #include <linux/module.h> 
 #include <linux/sched/signal.h>
 
+<<<<<<< HEAD
 // emulacija ps komande za izlistavanje procesa
 
 char buffer[256]; //buffer za printk poruku 
+=======
+//comment 
+//nesto
+char buffer[256];
+>>>>>>> radna
 
 char * get_task_state(long state) //citanje stanja
 {
