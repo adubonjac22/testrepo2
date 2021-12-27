@@ -6,7 +6,7 @@
 
 char buffer[256]; //buffer za printk poruku 
 
-char * get_task_state(long state)
+char * get_task_state(long state) //bla
 {
 	switch (state) 
 	{
